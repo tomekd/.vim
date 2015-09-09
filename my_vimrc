@@ -15,7 +15,9 @@ NeoBundleFetch 'Shougo/neobundle.vim'
 
 " general
 NeoBundle 'altercation/vim-colors-solarized'
-" NeoBundle 'itchyny/lightline.vim'
+NeoBundle 'chriskempson/base16-vim'
+NeoBundle 'vim-scripts/a.vim'
+NeoBundle 'octol/vim-cpp-enhanced-highlight'
 NeoBundle 'powerline/powerline', {'rtp': 'powerline/bindings/vim/'}
 NeoBundle 'benjifisher/matchit.zip'
 NeoBundle 'tpope/vim-surround'
@@ -23,15 +25,7 @@ NeoBundle 'tpope/vim-repeat'
 NeoBundle 'tpope/vim-speeddating'
 NeoBundle 'jistr/vim-nerdtree-tabs'
 NeoBundle 'scrooloose/nerdcommenter'
-NeoBundle 'Shougo/vimproc', {
-\ 'build' : {
-\     'windows' : 'tools\\update-dll-mingw',
-\     'cygwin' : 'make -f make_cygwin.mak',
-\     'mac' : 'make -f make_mac.mak',
-\     'linux' : 'make',
-\     'unix' : 'gmake',
-\    },
-\ }
+NeoBundle 'Shougo/vimproc'
 NeoBundle 'scrooloose/nerdtree'
 NeoBundle 'scrooloose/syntastic'
 NeoBundle 'majutsushi/tagbar'
